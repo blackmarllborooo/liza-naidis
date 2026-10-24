@@ -1,0 +1,53 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>План поиска</title>
+<style>
+:root { --bg:#fff; --fg:#1f1f1f; --muted:#666; --card:#f6f6f6; --line:#e3e3e3; --accent:#1a5fb4; }
+@media (prefers-color-scheme: dark) { :root { --bg:#121212; --fg:#eee; --muted:#aaa; --card:#1e1e1e; --line:#333; --accent:#8ab4f8; } }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 18px 16px 40px; }
+h1 { font-size: 22px; margin: 0 0 4px; } h2 { font-size: 17px; margin: 22px 0 8px; }
+.meta { color: var(--muted); font-size: 14px; }
+a { color: var(--accent); }
+a.big { display:block; padding: 14px 16px; margin: 8px 0; background: var(--card); border:1px solid var(--line);
+        border-radius: 12px; text-decoration: none; font-weight: 600; }
+.files { font-size: 14px; line-height: 1.9; } .files span { color: var(--muted); font-size: 12px; }
+.note { background: var(--card); border-left: 4px solid #e8710a; padding: 10px 12px; border-radius: 6px; font-size: 14px; margin-top: 14px; }
+.how { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px 12px; margin-top: 14px; }
+.how ol, .how ul { padding-left: 20px; margin: 6px 0; } .how li { margin: 6px 0; }
+.code { font-family: ui-monospace, Menlo, monospace; background: var(--bg); border: 1px solid var(--line); padding: 1px 6px; border-radius: 6px; }
+details { margin: 6px 0; } summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+</style></head><body><main>
+<h1>План поиска</h1>
+<div class="meta">Последняя фиксация: 21.10.2026, 20:43, ул. Куусинена, 6Б (ЮВ край парка «Берёзовая роща»).
+Обновлено 24.10.2026 14:36. Данные © OpenStreetMap.</div>
+<section class="how">
+<h2>Как пользоваться</h2>
+<ol>
+<li><b>Договоритесь о названии группы</b>, когда встретитесь, например <span class="code">Северная</span> или <span class="code">Петя и Аня</span>.
+Никаких кодов и входа не нужно: отмечать может каждый, у кого есть эта ссылка.</li>
+<li><b>Откройте карту</b> (начинайте с радиуса 3 км, если координатор не сказал другое) и впишите вверху своё имя и название группы.
+Ваши отметки будут подписаны, например: «Северная · Петя».</li>
+<li><b>Найдите свой сектор.</b> Территория поделена на квадраты с именами вроде <span class="code">R19</span>.
+Впишите имя в поле «Сектор» — останутся только места этого квадрата.</li>
+<li><b>Проверяйте места по списку.</b> Нажмите на точку: там адрес и ссылки на Яндекс Карты, спутник, панораму и пеший маршрут.</li>
+<li><b>Ставьте отметки.</b> Галочка «проверено» и короткий комментарий: что видели, с кем говорили.
+Прошли весь квадрат — нажмите на него и отметьте «сектор проверен целиком».</li>
+<li><b>Отметки общие:</b> у остальных они появляются в течение 10 секунд или сразу после обновления страницы. Без интернета отметки сохраняются в телефоне и отправятся сами.</li>
+</ol>
+<p>На карте есть кнопка <b>«❓ Как пользоваться»</b> — там то же самое и расшифровка цветов.</p>
+<details><summary>Что значат цвета на карте</summary><ul>
+<li>Квадрат тем краснее, чем важнее его проверить. Зелёный квадрат — сектор проверен целиком.</li>
+<li>Цвет точки — тип места (вода, стройка, высотка и т.д.), список с цветами есть на карте слева.</li>
+<li>Крупная точка — высокий приоритет, мелкая — низкий. Серая — уже проверено.</li>
+</ul></details>
+<details><summary>Если что-то не работает</summary><ul>
+<li><b>Жёлтый кружок «Нет связи»</b> — продолжайте работать, отметки отправятся позже.</li>
+<li><b>Карта не открывается</b> — скачайте PDF ниже: там все места по секторам, его можно распечатать.</li>
+</ul></details>
+</section>
+<div class="note">Воду, крыши и железную дорогу проверяйте только группой и по согласованию с координатором.<br>
+Горячая линия «ЛизаАлерт»: <a href="tel:88007005452">8-800-700-54-52</a> · экстренные службы: <a href="tel:112">112</a></div>
+<section><h2>Радиус 3 км</h2><a class="big" href="map_3km.html">🗺 Карта, радиус 3 км</a><a class="big" href="report_3km.pdf">📄 PDF: все места по секторам (9.2 МБ)</a><p class="files"><a href="checklist_3km.csv" download>Чек-лист (Excel)</a> <span>1.0 МБ</span> · <a href="sectors_3km.csv" download>Сектора (Excel)</a> <span>44 КБ</span> · <a href="objects_3km.gpx" download>GPX для навигатора</a> <span>298 КБ</span> · <a href="objects_3km.kml" download>KML (Google Earth, OsmAnd)</a> <span>1.1 МБ</span> · <a href="yandex_3km.geojson" download>Импорт в Конструктор Яндекс Карт</a> <span>673 КБ</span></p></section><section><h2>Радиус 5 км</h2><a class="big" href="map_5km.html">🗺 Карта, радиус 5 км</a><a class="big" href="report_5km.pdf">📄 PDF: все места по секторам (26.2 МБ)</a><p class="files"><a href="checklist_5km.csv" download>Чек-лист (Excel)</a> <span>3.2 МБ</span> · <a href="sectors_5km.csv" download>Сектора (Excel)</a> <span>116 КБ</span> · <a href="objects_5km.gpx" download>GPX для навигатора</a> <span>921 КБ</span> · <a href="objects_5km.kml" download>KML (Google Earth, OsmAnd)</a> <span>3.3 МБ</span> · <a href="yandex_5km.geojson" download>Импорт в Конструктор Яндекс Карт</a> <span>995 КБ</span></p></section>
+</main></body></html>
